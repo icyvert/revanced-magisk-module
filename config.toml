@@ -4,19 +4,19 @@ parallel-jobs = 1
 [YouTube-ReVanced]
 app-name = "YouTube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
-direct-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 arch = "arm64-v8a"
 
 [YouTube-Music-ReVanced]
 app-name = "YouTube-Music"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
-direct-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 arch = "arm64-v8a"
 
 [Reddit-ReVanced]
 app-name = "Reddit"
 uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
-direct-dlurl = "https://archive.org/download/jhc-apks/apks/com.reddit.frontpage"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.reddit.frontpage"
 arch = "arm64-v8a"
 
 [YouTube-Morphe]
@@ -25,7 +25,7 @@ patches-source = "MorpheApp/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
 rv-brand = "Morphe"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
-direct-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 arch = "arm64-v8a"
 
 [YouTube-Music-Morphe]
@@ -34,7 +34,7 @@ patches-source = "MorpheApp/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
 rv-brand = "Morphe"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
-direct-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 arch = "arm64-v8a"
 
 [Reddit-Morphe]
@@ -43,5 +43,5 @@ patches-source = "MorpheApp/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
 rv-brand = "Morphe"
 uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
-direct-dlurl = "https://archive.org/download/jhc-apks/apks/com.reddit.frontpage"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.reddit.frontpage"
 arch = "arm64-v8a"
