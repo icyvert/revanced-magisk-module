@@ -154,8 +154,8 @@ wait
 rm -rf temp/tmp.*
 if [ -z "$(ls -A1 "${BUILD_DIR}")" ]; then abort "All builds failed."; fi
 
-log "\nInstall [GmsCore](https://github.com/ReVanced/GmsCore/releases) for non-root ReVanced YouTube and YT Music APKs"
-log "\nInstall [MicroG-RE](https://github.com/MorpheApp/MicroG-RE/releases) for non-root Morphe YouTube and YT Music APKs"
+log "\nInstall [GmsCore](https://github.com/ReVanced/GmsCore/releases) for ReVanced YouTube and YT Music APKs"
+log "\nInstall [MicroG-RE](https://github.com/MorpheApp/MicroG-RE/releases) for Morphe YouTube and YT Music APKs"
 
 SKIPPED=$(cat "$TEMP_DIR"/skipped 2>/dev/null || :)
 if [ -n "$SKIPPED" ]; then
